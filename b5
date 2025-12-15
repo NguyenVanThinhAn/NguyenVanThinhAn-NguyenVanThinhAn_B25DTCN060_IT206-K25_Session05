@@ -1,0 +1,21 @@
+Prompt
+"So sánh Array và Linked List theo tốc độ truy cập bộ nhớ tình huống áp dụng và code chèn phần tử"
+
+So sánh
+Array truy cập nhanh O(1)
+Linked List truy cập O(n)
+Array chèn giữa chậm
+Linked List chèn linh hoạt
+Array ít overhead
+Linked List tốn bộ nhớ con trỏ
+
+Code Array
+arr = [1,2,4]
+arr.insert(2,3)
+print(arr)
+
+Code Linked List
+class Node:
+    def __init__(self, val):
+        self.val = val
+        self.next = None
