@@ -1,0 +1,24 @@
+Chủ đề Heap
+
+Prompt 1
+Giải thích heap cho người mới
+Heap là cây gần đầy
+phần tử ưu tiên ở gốc
+
+Prompt 2
+So sánh heap và BST
+Heap truy cập min max nhanh
+BST tìm kiếm theo khoá tốt
+
+Prompt 3
+Ví dụ Python
+import heapq
+heap = []
+heapq.heappush(heap, 3)
+heapq.heappush(heap, 1)
+heapq.heappop(heap)
+
+Prompt 4
+Giải thích cho người mới và SV năm 3
+Người mới dùng ví dụ trực quan
+SV năm 3 phân tích heapify và độ phức tạp
