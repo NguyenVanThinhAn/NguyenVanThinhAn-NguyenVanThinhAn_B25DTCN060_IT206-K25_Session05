@@ -1,0 +1,37 @@
+Bài 1
+Prompt 1
+"Giải thích cấu trúc dữ liệu Stack."
+
+Prompt 2
+"Tôi chưa biết gì về cấu trúc dữ liệu Stack. Hãy giải thích đơn giản kèm ví dụ đời thực."
+
+AI trả lời cho Prompt 1
+Stack là cấu trúc dữ liệu theo nguyên tắc LIFO Last In First Out
+Các thao tác chính
+push thêm phần tử lên đỉnh
+pop lấy phần tử khỏi đỉnh
+top xem phần tử ở đỉnh mà không xóa
+ứng dụng
+undo trong trình soạn thảo
+duyệt biểu thức và chuyển đổi biểu thức
+
+AI trả lời cho Prompt 2
+Stack là ngăn xếp phần tử mà phần tử đưa vào sau cùng sẽ lấy ra trước
+vd chồng đĩa
+khi xếp đĩa mới đặt lên trên cùng
+khi lấy đĩa thì lấy đĩa trên cùng trước
+thao tác
+push là đặt đĩa mới lên trên
+pop là lấy đĩa trên cùng ra
+top là nhìn đĩa trên cùng mà không lấy
+vì mô tả dùng hình ảnh chồng đĩa nên dễ hình dung cho người mới
+
+So sánh hai câu trả lời
+Bảng so sánh
+| Tiêu chí | Prompt 1 | Prompt 2 |
+| Khái niệm | Trình bày ngắn gọn thuật ngữ LIFO | Trình bày kèm vd chồng đĩa dễ hiểu |
+| Mức độ chi tiết | Trung bình tập trung thuật ngữ và ứng dụng | Đơn giản trực quan ít thuật ngữ khó |
+| Dễ hiểu cho người mới | Thấp hơn | Cao hơn |
+| Ví dụ đời thực | Không có chi tiết ví dụ | Có vd chồng đĩa trực quan |
+Kết luận
+Prompt 2 giúp người chưa biết dễ hình dung hơn vì dùng ví dụ đời thực và lời giải thích đơn giản
