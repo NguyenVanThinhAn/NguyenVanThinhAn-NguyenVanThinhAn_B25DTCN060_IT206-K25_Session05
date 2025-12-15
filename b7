@@ -1,0 +1,29 @@
+Prompt 1
+"Học sinh cấp 3 chưa biết sắp xếp hãy giải thích Quick Sort"
+
+Giải thích
+Chọn 1 phần tử làm mốc
+chia nhỏ hơn và lớn hơn
+làm lặp lại
+vd xếp sách
+
+Prompt 2
+"Lập trình viên junior đã biết Bubble Sort hãy giải thích Quick Sort và code Python"
+
+Giải thích
+Partition theo pivot
+độ phức tạp tb O(n log n)
+
+Code
+def quicksort(arr):
+    if len(arr) <= 1:
+        return arr
+    pivot = arr[len(arr)//2]
+    left = [x for x in arr if x < pivot]
+    mid = [x for x in arr if x == pivot]
+    right = [x for x in arr if x > pivot]
+    return quicksort(left) + mid + quicksort(right)
+
+Phân tích
+AI giảm thuật ngữ cho người mới
+AI tăng kỹ thuật và code cho junior
