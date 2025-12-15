@@ -1,0 +1,30 @@
+Prompt
+"Viết ví dụ Python minh họa kế thừa OOP với Animal và Dog. Giải thích từng dòng code"
+
+Code Python
+class Animal:
+    def __init__(self, name):
+        self.name = name
+    def speak(self):
+        return "..."
+
+class Dog(Animal):
+    def __init__(self, name, breed):
+        super().__init__(name)
+        self.breed = breed
+    def speak(self):
+        return f"{self.name} sủa"
+
+dog = Dog("Bingo", "Labrador")
+print(dog.name)
+print(dog.breed)
+print(dog.speak())
+
+Giải thích
+class Animal khai báo lớp cha
+__init__ khởi tạo tên
+speak phương thức chung
+class Dog kế thừa Animal
+super gọi constructor lớp cha
+breed thuộc tính riêng
+speak ghi đè hành vi
