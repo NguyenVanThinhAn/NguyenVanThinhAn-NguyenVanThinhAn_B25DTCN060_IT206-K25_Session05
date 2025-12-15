@@ -1,0 +1,15 @@
+Prompt
+"Giải thích Queue bằng sơ đồ ASCII"
+
+Giải thích
+Queue theo FIFO
+vào sau ra trước
+enqueue thêm cuối
+dequeue lấy đầu
+
+Sơ đồ
+front -> [10][20][30] <- rear
+enqueue 40
+front -> [10][20][30][40] <- rear
+dequeue
+front -> [20][30][40] <- rear
