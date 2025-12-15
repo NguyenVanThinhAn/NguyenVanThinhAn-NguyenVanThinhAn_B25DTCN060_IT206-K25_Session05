@@ -1,0 +1,15 @@
+Prompt
+"So sánh Bubble Sort Merge Sort và Quick Sort theo tiêu chí độ phức tạp thời gian độ phức tạp bộ nhớ và tình huống áp dụng"
+Yêu cầu thêm
+Trình bày kết quả dưới dạng bảng
+
+Bảng so sánh
+| Thuật toán | Độ phức tạp tg trung bình | Độ phức tạp tg xấu nhất | Độ phức tạp bộ nhớ | Tình huống áp dụng |
+| Bubble Sort | O(n^2) | O(n^2) | O(1) | Mảng nhỏ mục đích giảng dạy |
+| Merge Sort | O(n log n) | O(n log n) | O(n) | Dữ liệu lớn cần ổn định |
+| Quick Sort | O(n log n) | O(n^2) | O(log n) tb | Thực tế phổ biến chọn pivot tốt |
+
+Ghi chú
+Merge sort ổn định
+Quick sort nhanh trong thực tế
+Bubble sort ít dùng
