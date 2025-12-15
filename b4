@@ -1,0 +1,27 @@
+Prompt
+"Giải thích Breadth First Search cho học sinh lớp 10"
+
+Giải thích
+BFS duyệt theo từng mức
+thăm đỉnh gần trước xa sau
+dùng hàng đợi
+vd lan truyền từ trung tâm
+
+Prompt
+"Giải thích Breadth First Search cho sinh viên năm 1 CNTT"
+
+Giải thích
+Dùng queue và visited
+độ phức tạp O(V + E)
+phù hợp đồ thị không trọng số
+
+Prompt
+"Giải thích Breadth First Search cho lập trình viên 5 năm"
+
+Giải thích
+Phân tích sâu thuật toán
+ứng dụng tìm đường ngắn nhất
+biến thể bidirectional BFS
+
+So sánh
+Đối tượng càng cao thì chi tiết kỹ thuật càng nhiều
